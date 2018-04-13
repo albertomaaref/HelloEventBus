@@ -6,8 +6,8 @@ android {
         applicationId "com.example.alim.helloeventbus"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode versCode as Integer
+        versionName versName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
